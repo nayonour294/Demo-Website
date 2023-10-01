@@ -11,6 +11,21 @@ const nextTwoBtn = document.querySelector('#next2');
 const prevBtn = document.querySelector('#previous');
 const prevTwoBtn = document.querySelector('#previous2');
 
+
+
+
+// Pre Loader Function
+const bgLoading = document.querySelector('#loader');
+const loadingAnimation = document.querySelector('#loader::after');
+
+window.addEventListener("load", () => {
+  bgLoading.style.display = "none";
+})
+
+
+
+
+
 nextBtn.addEventListener('click', () => {
   formPageOne.style.display = "none"
   formPageTwo.style.display = "Block"
