@@ -204,7 +204,6 @@ header .nav-row .menu-list a li:hover::before {
     width: 50%;
     height: 6px;
     background: var(--white);
-    /* margin: auto; */
     margin: 1.5rem auto;
     border-radius: 10px;
 }
@@ -247,7 +246,9 @@ header .nav-row .menu-list a li:hover::before {
     
 }
 
-
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
 
 
 .carousel-control-next-icon,
@@ -307,6 +308,7 @@ header .nav-row .menu-list a li:hover::before {
 .capabilites-section {
     padding: 0 10rem;
     background: var(--red);
+    overflow: hidden;
 }
 
 .capabilites-section .title h2{
@@ -402,6 +404,7 @@ header .nav-row .menu-list a li:hover::before {
 .capabilites-section .contact p {
     font-size: 22px;
     color: var(--white);
+    width: 70%;
 }
 
 .capabilites-section .contact a {
@@ -759,8 +762,8 @@ header .nav-row .menu-list a li:hover::before {
 }
 
 .aplication-section .rows .box:nth-child(1) h5 {
-    left: 63px !important;
-    top: 95px !important;
+    left: 63px;
+    top: 95px;
 }
 
 .aplication-section .rows .box:nth-child(2) h5 {
@@ -774,18 +777,18 @@ header .nav-row .menu-list a li:hover::before {
 }
 
 #one h5 {
-	left: 30px !important;
-	top: 94px !important;
+	left: 30px ;
+	top: 94px;
 }
 
 #two h5 {
-	left: 30px !important;
-	top: 94px !important;
+	left: 30px ;
+	top: 94px ;
 }
 
 #three h5 {
-	left: 38px !important;
-	top: 94px !important;
+	left: 38px ;
+	top: 94px ;
 }
 
 
